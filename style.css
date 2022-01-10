@@ -1,0 +1,26 @@
+html {
+  background-color: #1a1a1a;
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  background-color: #c93127;
+}
+
+canvas {
+  z-index: 2;
+}
+
+.text {
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  top: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fafafa;
+  font-size: 32px;
+  width: 100%;
+}
