@@ -16,8 +16,9 @@ canvas {
 
 .text {
   font-family: "Roboto Mono", monospace;
-  position: absolute;
+  position: fixed;
   top: 50%;
+  transform: translate(0, -50%);
   margin: 0 auto;
   text-align: center;
   color: #fafafa;
