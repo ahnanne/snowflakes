@@ -13,6 +13,7 @@ typedef struct
   float x, y;
   float speedX;
   float speedY;
+  float opacity;
 } Snowflake;
 
 Snowflake snowflakes[NUM_SNOWFLAKES];
@@ -32,6 +33,7 @@ void init_snowflakes(int width, int height)
     snowflakes[i].y = rand() % height;
     snowflakes[i].speedX = rangedRandom(SPEED_X_MIN, SPEED_X_MAX) * 0.1;
     snowflakes[i].speedY = rangedRandom(SPEED_Y_MIN, SPEED_Y_MAX) * 0.1;
+    snowflakes[i].opacity = rangedRandom(0, 10) * 0.1;
   }
 }
 
