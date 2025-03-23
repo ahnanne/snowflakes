@@ -4,11 +4,11 @@
 
 #define NUM_SNOWFLAKES 300
 #define SPEED_X_MIN -5
-#define SPEED_X_MAX 5
-#define SPEED_Y_MIN 1
-#define SPEED_Y_MAX 20
+#define SPEED_X_MAX 20
+#define SPEED_Y_MIN 10
+#define SPEED_Y_MAX 50
 #define RADIUS_MIN 5
-#define RADIUS_MAX 28
+#define RADIUS_MAX 30
 
 typedef struct
 {
