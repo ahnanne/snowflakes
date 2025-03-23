@@ -2,11 +2,13 @@
 #include <math.h>
 #include <emscripten.h>
 
-#define NUM_SNOWFLAKES 100
+#define NUM_SNOWFLAKES 300
 #define SPEED_X_MIN -5
 #define SPEED_X_MAX 5
 #define SPEED_Y_MIN 1
 #define SPEED_Y_MAX 20
+#define RADIUS_MIN 5
+#define RADIUS_MAX 28
 
 typedef struct
 {
@@ -14,6 +16,7 @@ typedef struct
   float speedX;
   float speedY;
   float opacity;
+  float radius;
 } Snowflake;
 
 Snowflake snowflakes[NUM_SNOWFLAKES];
@@ -34,6 +37,7 @@ void init_snowflakes(int width, int height)
     snowflakes[i].speedX = rangedRandom(SPEED_X_MIN, SPEED_X_MAX) * 0.1;
     snowflakes[i].speedY = rangedRandom(SPEED_Y_MIN, SPEED_Y_MAX) * 0.1;
     snowflakes[i].opacity = rangedRandom(0, 10) * 0.1;
+    snowflakes[i].radius = rangedRandom(RADIUS_MIN, RADIUS_MAX) * 0.1;
   }
 }
 
