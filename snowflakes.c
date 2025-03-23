@@ -27,7 +27,7 @@ void init_snowflakes(int width, int height)
   {
     snowflakes[i].x = rand() % width;
     snowflakes[i].y = rand() % height;
-    snowflakes[i].speedY = rangedRandom(1, 20);
+    snowflakes[i].speedY = rangedRandom(SPEED_Y_MIN, SPEED_Y_MAX) * 0.1;
   }
 }
 
