@@ -15,7 +15,8 @@ ___
 emcc --version
 ```
 - `emcc`가 사용 가능한 상태라면 다음과 같이 떠야 됨.
-<img src="https://private-user-images.githubusercontent.com/54733637/425792432-99a3e0f6-0055-473e-9cf7-ca6b08580864.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI2OTc4MjEsIm5iZiI6MTc0MjY5NzUyMSwicGF0aCI6Ii81NDczMzYzNy80MjU3OTI0MzItOTlhM2UwZjYtMDA1NS00NzNlLTljZjctY2E2YjA4NTgwODY0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIzVDAyMzg0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThiOTU1ZmZmMDdkOWRkNmZkMjg4NDY5Nzk2NzNjNDNkOWZiYjEwMzEzMWUxOWYwNTIxODFjYTA4M2UwODU4ODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9MPNu_PKy3C14OwdiaOz-fhFzXdoAFdySlt9vC-k2Bg" width=300>
+  ![image](https://github.com/user-attachments/assets/4d487571-d2c3-4615-9845-96dc2b84a607)
+
 - `emcc: command not found`라고 뜬다면:
   - [Emscripten 설치 안내 문서](https://emscripten.org/docs/getting_started/downloads.html)에 안내된 대로 본인 운영체제/터미널에 맞는 명령어를 제대로 입력했는지 체크
   - `emcc: command not found`로 구글링해서 트러블슈팅 사례 참고하기
