@@ -4,7 +4,7 @@ const MARGIN = 10;
 
 async function loadWasm() {
   try {
-    const response = await fetch("/snowflakes.wasm"); // WASM 파일 가져오기
+    const response = await fetch("./snowflakes.wasm"); // WASM 파일 가져오기
     const bytes = await response.arrayBuffer();
     const { instance } = await WebAssembly.instantiate(bytes, {});
 
